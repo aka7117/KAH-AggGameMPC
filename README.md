@@ -1,2 +1,2 @@
 # KAH-AggGameMPC
-This is the simulation scenario of th earticle
+This is the simulation scenario of the article
