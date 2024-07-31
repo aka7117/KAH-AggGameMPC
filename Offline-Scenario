@@ -467,7 +467,8 @@ class LoadOptimization:
         print("Main process completed.")
 
 
+########################## Edit This part to load files #######################
+
 if __name__ == "__main__":
-    optimizer = LoadOptimization(r'C:\Users\14017437\Desktop\Current Projects\Papers\K - AggDRL\MATLAB Codes\CodeOcean - version 2\code\Offline Scenario\Load.mat', 
-                             r'C:\Users\14017437\Desktop\Current Projects\Papers\K - AggDRL\MATLAB Codes\CodeOcean - version 2\code\Offline Scenario\Ar2_Cars_0_1_20000.mat')
+    optimizer = LoadOptimization(r'Load.mat', r'Ar2_Cars_0_1_20000.mat')
     optimizer.main()
